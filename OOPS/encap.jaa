@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class A
+{
+	private int pin;
+	A(int pin)
+	{
+		this.pin=pin;
+	}
+	int getPin()
+	{
+		return pin;
+	}
+}
+class Main
+{
+	public static void main(String[] args)
+	{
+		A x=new A(1233);
+		System.out.print(x.pin);
+	}
+}
